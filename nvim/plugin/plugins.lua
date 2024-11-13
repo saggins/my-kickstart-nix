@@ -10,3 +10,9 @@ require('nvim-surround').setup()
 
 -- setup must be called before loading
 vim.cmd("colorscheme kanagawa-lotus")
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.marksman.setup{}
+require'glow'.setup ({
+  style="light"
+})
+
